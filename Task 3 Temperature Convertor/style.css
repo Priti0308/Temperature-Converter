@@ -1,0 +1,61 @@
+   body {
+       background: orange;
+       background: radial-gradient( circle, #662D8C, #ED1E79);
+   }
+   
+   .container {
+       align-items: center;
+       text-align: center;
+   }
+   
+   #convert {
+       background-color: #6fb14e;
+   }
+   
+   #convert:hover {
+       background-color: #def149;
+   }
+   
+   #clear {
+       background-color: rgb(203, 205, 205);
+   }
+   
+   h1 {
+       margin-top: 25vh;
+       color: white;
+   }
+   
+   input {
+       display: block;
+       padding: 10px;
+       margin-top: 10px;
+       font-size: 2em;
+       color: red;
+       font-family: cursive, sans-serif;
+       margin-left: 418px;
+       border: 2 px solid black;
+   }
+   
+    ::-webkit-input-placeholder {
+       color: #ccc;
+   }
+   
+    :-moz-placeholder {
+       color: #ccc;
+   }
+   
+    ::-moz-placeholder {
+       color: #ccc;
+   }
+   
+    :-ms-input-placeholder {
+       color: #ccc;
+   }
+   
+   button {
+       padding: 10px;
+       font-size: 1.2em;
+       color: #070606;
+       border: 2px solid black;
+       font-family: cursive, sans-serif;
+   }
